@@ -13,7 +13,6 @@ import {
 } from "@/lib/experiences";
 import { formatInr } from "@/lib/format";
 import { PickupDropBlurb } from "@/components/boating/PickupDropBlurb";
-import { apiRoute } from "@/lib/api-route";
 import {
   buildBookingWhatsAppText,
   WA_BOOKING_NUMBER,
@@ -125,7 +124,7 @@ export function BookingWizard() {
     setSubmitting(true);
     setSubmitError(null);
     try {
-      const res = await fetch(apiRoute("/api/bookings/checkout"), {
+      const res = await fetch("/api/bookings/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -215,7 +214,7 @@ export function BookingWizard() {
         },
         handler: async (response) => {
           try {
-            const verifyRes = await fetch(apiRoute("/api/payments/razorpay/verify"), {
+            const verifyRes = await fetch("/api/payments/razorpay/verify", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({

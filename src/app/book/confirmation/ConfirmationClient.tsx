@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useState } from "react";
-import { apiRoute } from "@/lib/api-route";
 
 type LookupOk = {
   reference: string;
@@ -35,7 +34,7 @@ export function ConfirmationClient() {
     setError(null);
     setData(null);
     try {
-      const res = await fetch(apiRoute("/api/bookings/lookup"), {
+      const res = await fetch("/api/bookings/lookup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ reference: reference.trim(), phone: phone.trim() }),
