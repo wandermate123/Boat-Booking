@@ -1,0 +1,32 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Booking {
+  id                String    @id @default(cuid())
+  reference         String    @unique
+  status            String
+  amountRupees      Int
+  amountPaise       Int
+  experienceId      String
+  journeyTitle      String
+  date              String
+  guests            Int
+  slot              String
+  slotLabel         String
+  addOnIdsJson      String
+  customerName      String
+  customerPhone     String
+  customerEmail     String?
+  notes             String?
+  razorpayOrderId   String?
+  razorpayPaymentId String?
+  createdAt         DateTime  @default(now())
+  paidAt                    DateTime?
+  confirmationEmailSentAt   DateTime?
+}

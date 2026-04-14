@@ -14,7 +14,9 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/boating](http://localhost:3000/boating) with your browser (this app uses Next.js [`basePath`](https://nextjs.org/docs/app/api-reference/config/next-config-js/basePath) `/boating` for **wandermate.in/boating**).
+
+Production: set `NEXT_PUBLIC_APP_URL=https://wandermate.in/boating` so sitemap, RSS, emails, and metadata use the correct public URL.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
