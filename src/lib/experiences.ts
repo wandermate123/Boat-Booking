@@ -75,8 +75,8 @@ export const experiences: Experience[] = [
     ],
     category: "dawn",
     imageSrc:
-      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=1200&q=80",
-    imageAlt: "Soft morning mist over a wide river",
+      "https://images.unsplash.com/photo-1652396505268-9c1b906bf93e?w=1200&q=80",
+    imageAlt: "Boatman rowing a small boat on the Ganges at Varanasi",
     boatSampleCaption:
       "Sample vessel: narrow hand-rowed boat — low profile for still water at dawn.",
     pickupPoint: "Assi Ghat — main river steps (Wandermate flag)",
@@ -137,8 +137,8 @@ export const experiences: Experience[] = [
     ],
     category: "heritage",
     imageSrc:
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&q=80",
-    imageAlt: "Stone steps of a riverside ghat at golden hour",
+      "https://images.unsplash.com/photo-1608412525748-e06621067e23?w=1200&q=80",
+    imageAlt: "Ghats and riverside steps along the Ganges in Varanasi",
     boatSampleCaption:
       "Sample vessel: classic open rowboat · shaded canopy on select partners.",
     pickupPoint: "Dashashwamedh Ghat — boat stand near Raja Ghat lane",
@@ -197,8 +197,8 @@ export const experiences: Experience[] = [
     ],
     category: "aarti",
     imageSrc:
-      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&q=80",
-    imageAlt: "Evening lamps and reflections on water",
+      "https://images.unsplash.com/photo-1598439588456-106ce3e37b24?w=1200&q=80",
+    imageAlt: "Silhouette of guests in a boat on the Ganges at sunset, Varanasi",
     boatSampleCaption:
       "Sample vessel: forward seating for Aarti approach · premium cushioned decks on request.",
     pickupPoint: "Shivala Ghat — partner pontoon (evening slot)",
@@ -258,8 +258,8 @@ export const experiences: Experience[] = [
     ],
     category: "private",
     imageSrc:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
-    imageAlt: "Sunset colors over calm open water",
+      "https://images.unsplash.com/photo-1752667842621-8b31ae6d16a1?w=1200&q=80",
+    imageAlt: "Rowboat on the Ganges with warm evening light, Varanasi",
     boatSampleCaption:
       "Sample vessel: wider private deck for couples & families; larger bajra for 6+.",
     pickupPoint: "Ravidas Ghat — marked rowboats bay",
@@ -317,8 +317,8 @@ export const experiences: Experience[] = [
     ],
     category: "private",
     imageSrc:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
-    imageAlt: "Deep twilight over a wide river horizon",
+      "https://images.unsplash.com/photo-1675160968739-2e34725504b4?w=1200&q=80",
+    imageAlt: "Guests in a boat on the wide Ganges with the Varanasi skyline",
     boatSampleCaption:
       "Sample vessel: premium deck class — final boat matched to your bespoke route.",
     pickupPoint: "Confirmed with concierge (typical: Dashashwamedh or Assi)",

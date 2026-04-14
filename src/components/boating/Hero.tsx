@@ -5,8 +5,8 @@ export function Hero() {
   return (
     <section className="relative min-h-[100svh] w-full overflow-hidden">
       <Image
-        src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=85"
-        alt="The Ganges at dawn with soft mist over the water"
+        src="https://images.unsplash.com/photo-1704872833058-1948ac9230c1?w=1920&q=85"
+        alt="Many wooden boats moored along the Ganges at Varanasi"
         fill
         priority
         className="object-cover"
