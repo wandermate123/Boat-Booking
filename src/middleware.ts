@@ -7,7 +7,8 @@ const BASE = SITE_BASE_PATH;
 const STATIC_EXT = /\.(?:ico|png|jpe?g|gif|webp|svg|txt|xml|webmanifest|woff2?)$/i;
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+  // `nextUrl.pathname` has `basePath` stripped; use the real path so `/boating` is not treated as `/`.
+  const pathname = new URL(request.url).pathname;
 
   if (pathname === BASE || pathname.startsWith(`${BASE}/`)) {
     return NextResponse.next();
